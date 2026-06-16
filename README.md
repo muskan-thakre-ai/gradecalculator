@@ -25,7 +25,7 @@ This app allows students to calculate their overall percentage and grade easily.
 ## 📦 Installation
 
 ### 1. Clone Repository
-git clone https://github.com/your-username/grade-calculator-streamlit.git  
+git clone (https://github.com/muskan-thakre-ai/gradecalculator) 
 cd grade-calculator-streamlit  
 
 ### 2. Install Dependencies
@@ -43,11 +43,11 @@ http://localhost:8501
 
 ## 📊 How It Works
 
-1. Enter number of subjects  
+1. Enter student details
 2. Input marks obtained for each subject  
 3. Input total marks  
 4. Click **Calculate**  
-5. View total, percentage, and grade  
+5. View total, percentage,  grade , leadboeard 
 
 ---
 
@@ -60,6 +60,11 @@ http://localhost:8501
 | English  | 80   | 100  |
 
 **Percentage = 85%**
+## screnshot
+<img width="1577" height="782" alt="Screenshot 2026-06-16 113154" src="https://github.com/user-attachments/assets/f9b1f971-0c20-451c-9299-772abd9b7e1a" />
+<img width="1390" height="576" alt="Screenshot 2026-06-16 113006" src="https://github.com/user-attachments/assets/7ceb8177-710a-4276-acc2-e2ed83dd2fb3" />
+<img width="1372" height="812" alt="Screenshot 2026-06-16 113042" src="https://github.com/user-attachments/assets/1a02386d-86c6-40c5-a991-63ba10804788" />
+
 
 
 
@@ -107,3 +112,5 @@ if st.button("Calculate"):
         st.write("Grade: B")
     else:
         st.write("Grade: C")
+
+
